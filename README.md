@@ -1,14 +1,22 @@
 # Keylogger Monitoring Tool
 
-This is a Python-based keylogger that logs keystrokes, clipboard data, and periodic screenshots. It can also send the logs via email.
+A Python-based monitoring tool that logs keystrokes, clipboard data, and periodic screenshots. It includes an optional feature to send the logs via email.
 
-## Features
-- Keystroke logging
-- Clipboard content monitoring
-- Screenshot capture every 60 seconds
-- Log emailing feature
+---
 
-## Installation
+## 🔧 Features
+
+- ✅ Keystroke logging
+- ✅ Clipboard content capture
+- ✅ Automatic screenshot capturing every 60 seconds
+- ✅ Email sending functionality for logs (SMTP-based)
+- ✅ Organized log and screenshot storage
+
+---
+
+## 📦 Requirements
+
+Install the required libraries using:
 
 ```bash
 pip install -r requirements.txt
